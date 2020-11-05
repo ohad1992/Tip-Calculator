@@ -1,4 +1,6 @@
 # Tip-Calculator
+#SideProject 
+
 Tip Calculator 
 
-in this project i create a tip calculator app with js,html,css
+Small web app using Js,HTML,Css. 
