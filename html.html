@@ -1,14 +1,20 @@
-
+//autor: Ohad Hasson
+//Formation of Tip Claculator App
 
 <h1> Tip Calculator</h1>
 <head>
     <link href="style.css" rel="stylesheet">
     <script type="text/javascript" src="./TIP.js"></script>
 </head>
-<form action="TIP.js">
-<p>How Much Was Your Bill?</p>
-$ <input id="Bill" type="text" placeholder="bill amount" >
 
+<form action="TIP.js">
+    
+    // Bill amount input 
+<p>How Much Was Your Bill?</p>
+ <input id="Bill" type="text" placeholder="bill amount" >
+    
+// CHOOSE HOW AMOUNT OF TIP
+    
     <p> How Was The Service?<p>
     <select id="Service" >
         <option disabled selected value="0">-- Choose an Option --</option>
@@ -21,4 +27,16 @@ $ <input id="Bill" type="text" placeholder="bill amount" >
     <p> HOW MANY PEOPLE SHARING THE BILL?</p>
 
     <input id="Sharing" type="text" placeholder="How many people"> <br> <br>
+
+
+// Calculate tip
+<input id="calculate" type="button" onclick="TipFunction()" value="Calculate!">
+
+
+// Result 
+    <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+    </div>
+
 
