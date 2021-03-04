@@ -3,4 +3,4 @@
 
 Tip Calculator 
 
-Small web app using Js,HTML,Css. 
+ web app using Js,HTML,Css. 
